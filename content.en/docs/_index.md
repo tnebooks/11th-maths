@@ -1,8 +1,8 @@
 ---
-title: 'Science'
+title: '11th-maths'
 categories:
-    - science
+    - 11th-maths
 weight: 1
 --- 
 
-Science
+11th-maths
