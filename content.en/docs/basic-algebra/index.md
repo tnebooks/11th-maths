@@ -17,7 +17,7 @@ Algebra is a branch of mathematics in which one expresses relations among quanti
 Indian mathematicians like Brahmagupta (598-670) and Bhaskaracharya (1114-1185) had made contributions to the understanding of the real numbers system and algebra. In his work Brahmagupta had solved the general quadratic equation for both positive and negative roots. Bhaskaracharya solved quadratic equations with more than one unknown and found negative and irrational solutions. The most important real number zero was the contribution by Indians.
 
 Rene Descartes (1596-1650) introduced the term "real" to describe roots of a polynomial distinguishing them from imaginary ones. A rigorous construction of real number system was due to Richard Dedekind (1831-1916).
-
+![](img1.png)
 **Richard Dedekind (1831-1916)**
 
 ## Learning Objectives
@@ -70,7 +70,7 @@ Let us recall "The Number Line". It is a horizontal line with the origin, to rep
 Have we filled the whole line with rational numbers?
 
 The answer to the above question is "No" as the following consideration demonstrates. Consider a square whose side has length 1 unit. Then by Pythagoras theorem its diagonal has length \( \sqrt{2} \) units.
-
+![](fig_2.1.png)
 **Figure 2.1**
 
 ### 2.2.3 Irrational Numbers
@@ -108,7 +108,7 @@ $$
 As we already knew that every terminating or infinite periodic decimal is a rational number, we see that the decimal representation of an irrational number will neither be terminating nor infinite periodic. The set \( \mathbb{R} \) of real numbers can be visualized as the set of points on the number line such that if \( x < y \), then \( x \) lies to left of \( y \).
 
 Figure 2.2 demonstrates how the square roots of 2 and 3 can be identified on a number line.
-
+![](fig_2.2.png)
 **Figure 2.2**
 
 We notice that
@@ -333,7 +333,7 @@ Solve \( 3x - 5 \leq x + 1 \) for \( x \).
 We have \( 3x - 5 \leq x + 1 \); which is equivalent to \( 2x \leq 6 \). Hence we have \( x \leq 3 \); the solution set is \( (-\infty, 3] \).
 
 We can also solve the above inequality graphically. Let us consider the graphs of \( f(x) = 3x - 5 \) and \( g(x) = x + 1 \) (See Figure 2.3). Now, find all the \( x \)-values for which the graph of \( f \) is below the graph of \( g \).
-
+![](fig_2.3.png)
 **Figure 2.3**
 
 ### Example 2.8
@@ -463,7 +463,7 @@ which we will study in Higher Secondary Second year.
 (iii) For example, let us look at the graph of \( y = x^2 - 4x + 5 \). (See Figure 2.4.)
 
 Since the graph does not intersect the \( x \)-axis, \( x^2 - 4x + 5 = 0 \) has no real roots.
-
+![](fig_2.4.png)
 **Figure 2.4**
 
 (iv) We have the following table describing the nature of the roots of a quadratic equation and the sign of the discriminant \( D = b^2 - 4ac \).
@@ -565,7 +565,7 @@ Solve \( 3x^2 + 5x - 2 \leq 0 \).
 **Solution:**
 
 On factorizing the quadratic polynomial we get \( 3(x + 2)\left(x - \frac{1}{3}\right) \leq 0 \). Draw the number line. Mark the critical points \( -2 \) and \( \frac{1}{3} \) where the factors vanish (See Figure 2.5). On each sub-interval check the sign of \( (x + 2)\left(x - \frac{1}{3}\right) \). To do this pick an arbitrary point anywhere in the interval. Whatever sign the resulting value has, the polynomial has the same sign throughout the whole corresponding interval. (Otherwise, there would be another critical point within the interval.) This process is easily organized in the following table.
-
+![](fig_2.5.png)
 **Figure 2.5**
 
 | Interval | Sign of \( (x + 2) \) | Sign of \( \left(x - \frac{1}{3}\right) \) | Sign of \( 3x^2 + 5x - 2 \) |
@@ -667,7 +667,7 @@ P(x)Q(x) = 2x^7 + 3x^6 - 12x^5 + 4x^4 + 19x^3 + 2x^2 - 5x - 5
 $$
 
 by multiplying each term of \( P(x) \) by every term of \( Q(x) \). It is easy to see that the degree of \( P(x)Q(x) \) is the sum of the degrees of \( P(x) \) and \( Q(x) \), whereas the degree of \( P(x) + Q(x) \) is at most the maximum of degrees of \( P(x) \) and \( Q(x) \). Here is an example of the graph of a cubic polynomial function.
-
+![](fig_2.6.png)
 **Figure 2.6**
 
 Suppose that \( f(x) \) and \( g(x) \) are polynomials where \( g(x) \) is not zero. The quotient \( \frac{f(x)}{g(x)} \) is called a rational function, which is defined for all \( x \in \mathbb{R} \) such that \( g(x) \neq 0 \). In general, a rational function need not be a polynomial.
@@ -1095,6 +1095,8 @@ Shade the region given by the inequality \( x \geq 2 \).
 
 First we consider equation \( x = 2 \). It is a line parallel to \( y \)-axis at a distance of 2 units from it. This line divides the cartesian plane into two parts. Substituting \( (0,0) \) in the inequality we get \( 0 \geq 2 \) which is false. Hence the region which does not contain the origin is represented by the inequality \( x \geq 2 \). The shaded region is the required solution set of the given inequality. Since \( x \geq 2 \), the points on the line \( x = 2 \) are also solutions.
 
+![](e_2.28.png)
+
 ### Example 2.29
 
 Shade the region given by the linear inequality \( x + 2y > 3 \).
@@ -1102,6 +1104,8 @@ Shade the region given by the linear inequality \( x + 2y > 3 \).
 **Solution:**
 
 The line \( x + 2y = 3 \) divides the cartesian plane into two half planes. To find the half plane represented by \( x + 2y > 3 \) substitute a point in one of the half planes in the inequality and check whether it is satisfied. Let us substitute \( (0,0) \) in the inequality. We get \( 0 > 3 \) which is false. Hence, the region given by \( x + 2y > 3 \) is the half plane which does not contain the origin.
+
+![](e_2.29.png)
 
 ### Example 2.30
 
@@ -1120,6 +1124,8 @@ Similarly, the half-plane bounded by \( 2x - y \leq 5 \) containing the origin r
 The region represented by \( -x + 2y \leq 3 \) is the half space bounded by the straight line \( -x + 2y = 3 \) that contains the origin.
 
 The region common to the above three half planes represents the solution set of the given linear inequalities.
+
+![](e_2.30.png)
 
 ## Exercise 2.10
 
@@ -1168,7 +1174,8 @@ This problem is basically to finding inverse function of \( y = x^n \). In order
 (i) \( f(x) = x^{2n} \), \( n \in \mathbb{N} \)
 
 (ii) \( g(x) = x^{2n+1} \), \( n \in \mathbb{N} \)
-
+![](2.8.2_i.png)
+![](2.8.2_ii.png)
 From these two figures it is clear that the function \( g : \mathbb{R} \to \mathbb{R} \) given by \( g(x) = x^{2n+1} \), \( n \in \mathbb{N} \) is one-to-one and onto and hence its inverse function from \( \mathbb{R} \) onto \( \mathbb{R} \) exists. But \( f : \mathbb{R} \to [0,\infty) \) given by \( f(x) = x^{2n} \), \( n \in \mathbb{N} \) is onto but not one-to-one. However, \( f \) is one-to-one and onto if we restrict its domain to \( [0,\infty) \). This is helpful in understanding \( n \)th root of a real number. So we have two cases:
 
 **Case 1** When \( n \) is even.
@@ -1229,8 +1236,11 @@ For \( a, b > 0 \) and \( a \neq 1 \neq b \)
 (ii) \( \frac{a^x}{a^y} = a^{x-y} \) for all \( x, y \in \mathbb{R} \)
 
 1. Let us consider \( f(x) = a^x \), \( x \in \mathbb{R} \) where \( a = 2 \). Now \( f(x) = 2^x \), \( x \in \mathbb{R} \). Let us show that \( f \) is one-to-one and onto. Suppose \( f(u) = f(v) \) for some \( u, v \in \mathbb{R} \). Then, we have \( 2^u = 2^v \), which implies that \( \frac{2^u}{2^v} = 1 \), \( \Rightarrow 2^{u-v} = 1 \). So, \( u - v = 0 \) and hence \( u = v \). Thus \( f \) is a one-to-one function.
-
+![](fig_2.7.png)
 **Figure 2.7: \( f(x) = 2^x \)**
+
+![](fig_2.8.png)
+**Figure 2.8: \( f(x) = 1/2^x \)**
 
 From the graph it is clear that values of \( f(x) = 2^x \) increase as \( x \) values increase and the range of \( f \) is \( (0,\infty) \). So as \( 2^0 = 1 \), we have \( 2^x > 1 \) for all \( x > 0 \) and \( 2^x < 1 \) for all \( x < 0 \). Observe that \( f : \mathbb{R} \to (0,\infty) \) is onto.
 
@@ -1437,6 +1447,9 @@ This completes the proof.
 (ii) If \( a = e \), (an irrational number, approximately equal to 2.718), then the corresponding logarithmic function \( \log_e x \) is called the natural logarithm. It is denoted by \( \ln x \). These above particular cases of logarithmic functions are used very much in other sciences and engineering. Particularly, the natural logarithm occurs very naturally. When we write \( \log x \) we mean \( \log_e x \).
 
 (iii) If \( a = 2 \), then the corresponding logarithmic function \( \log_2 x \) called the binary logarithm, which is used in computer science.
+
+![](fig_2.9.png)
+**Figure 2.9:**
 
 ### Example 2.34
 
