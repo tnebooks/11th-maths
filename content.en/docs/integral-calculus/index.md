@@ -1,6 +1,7 @@
 ---
 title: 'integral calculus'
 weight: 11
+summary: "This chapter introduces integral calculus as the reverse process of differentiation, focusing on indefinite integrals (antiderivatives) and definite integrals, which are used to compute areas, volumes, and accumulations of quantities over an interval. It covers various methods of integration, including substitution, integration by parts, partial fractions, and standard integral formulas, along with the properties of definite integrals and the fundamental theorem of calculus. The chapter also discusses applications such as finding the area under curves, area between curves, and average value of functions, providing essential tools for solving real-world problems in physics, engineering, and economics."
 ---
 
 # 11. Integral Calculus

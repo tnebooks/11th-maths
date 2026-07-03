@@ -1,6 +1,7 @@
 ---
 title: 'vector algebra'
 weight: 8
+summary: "This chapter introduces vectors as quantities that have both magnitude and direction, distinguishing them from scalar quantities, and covers their representation, types, and various operations such as addition, subtraction, and multiplication by a scalar. It discusses the dot product and cross product of vectors, along with their geometric interpretations, properties, and applications in finding angles, areas, and volumes. The chapter also covers vector triple products, the scalar and vector projections, and the use of vectors in solving problems in physics and geometry, providing a solid foundation for higher-dimensional analysis."
 ---
 
 # Vector Algebra

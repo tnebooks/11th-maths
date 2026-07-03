@@ -1,6 +1,7 @@
 ---
 title: 'combinatorics and mathematical induction'
 weight: 5
+summary: "This chapter covers the binomial theorem for positive integral indices, which provides a systematic method for expanding expressions of the form (a+b)^n using binomial coefficients, and discusses its general term, middle term, and various applications. It also deals with sequences, including arithmetic progressions (AP) and geometric progressions (GP), along with their properties, formulas for the nth term and sum of terms, and the concept of infinite geometric series. The chapter further introduces special types of series such as sums of squares and cubes of natural numbers, and methods to find the sum to n terms of various series using techniques like summation notation and telescoping."
 ---
 
 # Chapter 5: Binomial Theorem, Sequences and Series

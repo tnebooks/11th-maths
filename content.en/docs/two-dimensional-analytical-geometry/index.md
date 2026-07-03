@@ -1,6 +1,7 @@
 ---
 title: 'two-dimensional-analytical-geometry'
 weight: 6
+summary: "This chapter deals with the study of geometric figures such as lines, circles, and conic sections using algebraic methods and coordinate systems, enabling precise mathematical representation and analysis of their properties. It covers the standard forms of equations for straight lines, including slope, intercept, and normal forms, along with the general equation of a circle and its various forms such as center-radius, diameter, and general form. The chapter also introduces conic sections like parabola, ellipse, and hyperbola, with their standard equations, foci, directrices, and eccentricities, providing a comprehensive understanding of analytical geometry in two dimensions."
 ---
 
 # Two Dimensional Analytical Geometry

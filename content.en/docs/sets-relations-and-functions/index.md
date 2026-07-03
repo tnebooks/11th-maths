@@ -1,6 +1,7 @@
 ---
 title: 'sets relations and functions'
 weight: 1
+summary: "This chapter introduces the fundamental concepts of sets, relations, and functions, which form the building blocks of modern mathematics and are essential for understanding higher-level topics. It covers different types of sets, operations on sets such as union, intersection, and complement, along with Venn diagrams and the laws of set algebra. The chapter also discusses various types of relations and functions, including domain, codomain, range, and different classifications like one-to-one, onto, and inverse functions, providing a strong foundation for mathematical reasoning."
 ---
 
 # Sets, Relations and Functions
@@ -16,7 +17,7 @@ The concepts of sets, relations and functions occupy a fundamental place in the 
 With the development of set theory, initiated by Cantor (1845-1918), the notion of function continued to evolve. From the notion of correspondence, mathematicians moved to the notion of relation. However even now in the theory of computation, a function is not viewed as a relation but as a computational rule. The modern definition of a function is given in terms of relation so as to suit to develop artificial intelligence.
 
 In the previous classes, we have studied and are well versed with the real numbers and arithmetic operations on them. We also learnt about sets of real numbers, Venn diagrams, Cartesian product of sets, basic definitions of relations and functions. For better understanding, we recall more about sets and Cartesian products of sets. In this chapter, we see a new facelift to the mathematical notions of "Relations" and "Functions".
-
+![](img1.png)
 **Cantor 1845-1918**
 
 ## Learning Objectives
@@ -316,6 +317,7 @@ n(A \cap B' \cap C') &= n\{A \cap (B \cup C)'\} \\
 Thus the required number of persons is 1950.
 
 **Venn diagram:** We draw the Venn Diagram using percentage.
+![](fig_1.1.png)
 
 **Figure 1.1**
 
@@ -533,7 +535,7 @@ From the above examples we can directly infer that \( b, h, \ell, r \) are indep
 ### 1.4.2 Intervals and Neighbourhoods
 
 The system \( \mathbb{R} \) of real numbers can be represented by the points on a line and a point on the line can be related to a unique real number as in Figure 1.2. By this, we mean that any real number can be identified as a point on the line. With this identification we call the line as the real line.
-
+![](fig_1.2.png)
 **Figure 1.2**
 
 The value increases as we go right and decreases as we go left. If \( x \) lies to the left of \( y \) on the real line then \( x < y \). As there is no gap in a line, we have infinitely many real numbers between any two real numbers.
@@ -599,7 +601,7 @@ There are many types of intervals. Let \( a, b \in \mathbb{R} \) such that \( a 
 ### Neighbourhood
 
 **Neighbourhood** of a point \( a \) is any open interval containing \( a \). In particular, if \( \epsilon \) is a positive number, usually very small, then the \( \epsilon \)-neighbourhood of \( a \) is the open interval \( (a - \epsilon, a + \epsilon) \). The set \( (a - \epsilon, a + \epsilon) - \{a\} \) is called **deleted neighbourhood** of \( a \) and it is denoted as \( 0 < |x - a| < \epsilon \) (See Figure 1.3).
-
+![](fig_1.3.png)
 **Figure 1.3**
 
 ## 1.5 Relations
@@ -627,7 +629,7 @@ From this we see that the word relation connects a person with another person. E
 **Illustration 1.1 (Cryptography)**
 
 For centuries, people have used ciphers or codes, to keep confidential information secure. Effective ciphers are essential to the military, to financial institutions and to computer programmers. The study of the techniques used in creating coding and decoding these ciphers is called cryptography.
-
+![](fig_1.4.png)
 **Figure 1.4**
 
 One of the earliest methods of coding a message was a simple substitution. For example, each letter in a message might be replaced by the letter that appears three places later in the alphabet.
@@ -655,10 +657,13 @@ Consider the following three equations
 **(i) \( 2x - y = 0 \)**
 
 The equation \( 2x - y = 0 \) represents a straight line. Clearly the points, \( (1,2) \), \( (3,6) \) lie on it whereas \( (1,1) \), \( (3,5) \), \( (4,5) \) are not lying on the straight line. The analytical relation between \( x \) and \( y \) is given by \( y = 2x \). The set of all points that lie on the straight line is given as \( \{(x,2x) : x \in \mathbb{R}\} \). Clearly this is a subset of \( \mathbb{R} \times \mathbb{R} \). (See Figure 1.5.)
+![](fig_1.5.png)
 
 **Figure 1.5**
+![](fig_1.6.png)
 
 **Figure 1.6**
+![](fig_1.7.png)
 
 **Figure 1.7**
 
@@ -728,6 +733,7 @@ Thus the domain of the relation \( R \) is the set of all first coordinates of t
 **Illustration 1.3**
 
 Consider the diagram in Figure 1.8. Here the alphabets are mapped onto the natural numbers. A simple cipher is to assign a natural number to each alphabet. Here \( a \) is represented by 1, \( b \) is represented by 2, ..., \( z \) is represented by 26. This correspondence can be written as the set
+![](fig_1.8.png)
 
 **Figure 1.8**
 
@@ -736,12 +742,16 @@ of ordered pairs \( \{(a,1),(b,2),\ldots,(z,26)\} \). This set of ordered pairs 
 Now we recall that the relations discussed in Illustrations 1.1 and 1.2 also end up with subsets of the cartesian product of two sets. So the term relation used in all discussions we had so far, fits with the mathematical term relation defined in Definition 1.2.
 
 The domain of the relation discussed in Illustration 1.1 is the set \( \{L,E,T,U,S,W,I,N\} \) and the range is \( \{O,H,W,X,V,Z,L,Q\} \). In Illustration 1.2, the domain and range of the relation discussed for the equation \( 2x - y = 0 \) are \( \mathbb{R} \) and \( \mathbb{R} \) (See Figure 1.9); for the equation \( x^2 - y = 0 \), the domain is \( \mathbb{R} \) and the range is \( [0,\infty) \) (See Figure 1.10); and in the case of the third equation \( x - y^2 = 0 \), the domain is \( [0,\infty) \) and the range is \( \mathbb{R} \) (See Figures 1.11 and 1.12).
+![](fig_1.9.png)
 
 **Figure 1.9**
+![](fig_1.10.png)
 
 **Figure 1.10**
+![](fig_1.11.png)
 
 **Figure 1.11**
+![](fig_1.12.png)
 
 **Figure 1.12**
 
@@ -1171,8 +1181,10 @@ $$
 Depending upon the value of \( x \), we have to select the formula to be used to find the value of \( f \) at any point \( x \). To find the value of \( f \) at any real number, first we have to find to which interval \( x \) belongs to; then using the corresponding formula we can find the value of \( f \) at that point. To find \( f(6) \) we know \( 3 \leq 6 < \infty \) (or \( 6 \in [3,\infty) \)); so we use the formula \( f(x) = x^2 \) and find \( f(6) = 36 \). Similarly \( f(-1) = -2 \), \( f(-5) = 0 \) and so on.
 
 If the function is defined from \( \mathbb{R} \) or a subset of \( \mathbb{R} \) then we can draw the graph of the function. For example, if \( f : [0,4] \to \mathbb{R} \) is defined by \( f(x) = \frac{x}{2} + 1 \), then we can plot the points \( (x, \frac{x}{2} + 1) \) for all \( x \in [0,4] \). Then we will get a straight line segment joining \( (0,1) \) and \( (4,3) \). (See Figure 1.13)
+![](fig_1.13.png)
 
 **Figure 1.13**
+![](fig_1.14.png)
 
 **Figure 1.14**
 
@@ -1187,12 +1199,17 @@ Can we say that any curve drawn on the plane be considered as a function from a 
 As we noted earlier, the vertical line through any point \( x \) in the domain meets the curve at some point, then the \( y \)-coordinate of the point is \( f(x) \). If the vertical line through a point \( x \) in the domain meets the curve at more than one point, we will get more than one value for \( f(x) \) for one \( x \). This is not allowed in a function. Further, if the vertical line through a point \( x \) in the domain does not meet the curve, then there will be no image for \( x \); this is also not possible in a function. So we can say,
 
 "if the vertical line through a point \( x \) in the domain meets the curve at more than one point or does not meet the curve, then the curve will not represent a function".
+![](fig_1.15.png)
 
 **Figure 1.15**
 
+![](fig_1.16.png)
+
 **Figure 1.16**
+![](fig_1.17.png)
 
 **Figure 1.17**
+![](fig_1.18.png)
 
 **Figure 1.18**
 
@@ -1207,14 +1224,18 @@ The third curve \( y^2 = x \) in Illustration 1.2 fails in the vertical line tes
 Some frequently used functions are known by names. Let us list some of them.
 
 (i) Let \( X \) be any non-empty set. The function \( f : X \to X \) defined by \( f(x) = x \) for all \( x \in X \) is called the **identity function** on \( X \) (See Figure 1.19). It is denoted by \( I_X \) or \( I \).
+![](fig_1.19.png)
 
 **Figure 1.19**
+![](fig_1.20.png)
 
 **Figure 1.20**
 
 (ii) Let \( X \) and \( Y \) be two sets. Let \( c \) be a fixed element of \( Y \). The function \( f : X \to Y \) defined by \( f(x) = c \) for all \( x \in X \) is called a **constant function** (See Figure 1.20). The value of a constant function is same for all values of \( x \) throughout the domain. If \( X \) and \( Y \) are \( \mathbb{R} \), then the graph of the identity function and a constant function are as in Figures 1.21 and 1.22. If \( X \) is any set, then the constant function defined by \( f(x) = 0 \) for all \( x \) is called the **zero function**. So zero function is a particular case of constant function.
+![](fig_1.21.png)
 
 **Figure 1.21**
+![](fig_1.22.png)
 
 **Figure 1.22**
 
@@ -1226,8 +1247,10 @@ x, & \text{if } x \geq 0 \\
 -x, & \text{if } x < 0
 \end{cases}
 $$
+![](fig_1.23.png)
 
 **Figure 1.23**
+![](fig_1.24.png)
 
 **Figure 1.24**
 
@@ -1257,14 +1280,23 @@ Let us note that
 \[
 \lceil 1\frac{1}{5} \rceil = 2, \quad \lceil 7.23 \rceil = 8, \quad \lceil -2\frac{1}{2} \rceil = -2 \ (\text{not } -3), \quad [6] = 6, \quad \lceil -4 \rceil = -4.
 \]
+![](fig_1.25.png)
+**Figure 1.2**
+
+
+![](fig_1.26.png)
+**Figure 1.26**
 
 ### 1.6.3 Types of Functions
 
 Though functions can be classified into various types according to the need, we are going to concentrate on two basic types: one-to-one functions and onto functions.
+![](fig_1.27.png)
 
 **Figure 1.27**
+![](fig_1.28.png)
 
 **Figure 1.28**
+![](fig_1.29.png)
 
 **Figure 1.29**
 
@@ -1329,6 +1361,9 @@ Check whether the following functions are one-to-one and onto.
 (i) If \( f(n) = f(m) \), then \( n + 2 = m + 2 \) and hence \( m = n \). Thus \( f \) is one-to-one. As 1 has no pre-image, this function is not onto. (See Figure 1.30)
 
 (ii) As above, this function is one-to-one. If \( m \) is in the co-domain, then \( m - 2 \) is in the domain and \( f(m - 2) = (m - 2) + 2 = m \); thus \( m \) has a pre-image and hence this function is onto. (See Figure 1.31)
+![](fig_1.30.png)
+
+![](fig_1.31.png)
 
 ### Example 1.15
 
@@ -1421,11 +1456,12 @@ So if \( f(x) = f(y) \), we must have \( x^2 = y^2 \). Also \( x \) and \( y \) 
 ### Horizontal Test
 
 Similar to the vertical line test we have a test called **horizontal test** to check whether a function is one-to-one, onto or not. Let a function be given as a curve in the plane. If the horizontal line through a point \( y \) in the co-domain meets the curve at some points, then the \( x \)-coordinate of all the points give pre-images for \( y \).
+![](fig_1.32.png)
 
 **Figure 1.32**
-
+![](fig_1.33.png)
 **Figure 1.33**
-
+![](fig_1.34.png)
 **Figure 1.34**
 
 (i) If the horizontal line through a point \( y \) in the co-domain does not meet the curve, then there will be no pre-image for \( y \) and hence the function is not onto.
@@ -1466,7 +1502,7 @@ Find the largest possible domain for the real valued function \( f \) defined by
 As we are finding the square root of \( x^2 - 5x + 6 \), we must have \( x^2 - 5x + 6 \geq 0 \) for all \( x \) in the domain. For this, follow the given procedure.
 
 Solving \( x^2 - 5x + 6 = 0 \), we get \( x = 2 \) and 3. Now draw the number line as in Figure 1.35.
-
+![](fig_1.35.png)
 **Figure 1.35**
 
 The quadratic expression changes sign at the points 2 and 3 only. So for \( x \) in \( (-\infty,2] \cup [3,\infty) \), we have \( x^2 - 5x + 6 \geq 0 \). So the natural domain is \( (-\infty,2] \cup [3,\infty) \). Hence the largest possible domain of \( f \) is \( (-\infty,2] \cup [3,\infty) \).
@@ -1550,11 +1586,11 @@ Draw the number line and plot the intervals to get the required domain interval.
 #### Composition
 
 Let there be two functions \( f \) and \( g \) as given in the Figure 1.36 and Figure 1.37. Let us note that the co-domain of \( f \) and the domain of \( g \) are the same. Let us cut off Figure 1.37 of \( g \) and paste it on the Figure 1.36 of \( f \) so that the domain \( Y \) of \( g \) is pasted on co-domain \( Y \) of \( f \). (See Figure 1.38.)
-
+![](fig_1.36.png)
 **Figure 1.36**
-
+![](fig_1.37.png)
 **Figure 1.37**
-
+![](fig_1.38.png)
 **Figure 1.38**
 
 Now we can define a function \( h : X \to Z \) in a natural way. To find the image of \( a \) under \( h \), we first see the image of \( a \) under \( f \); it is \( x \); then we see the image of this \( x \) under \( g \); this is \( r \). That is, \( h(a) = r \). Similarly, we declare \( h(b) = q \) and \( h(c) = q \). In this way we can define a new function \( h \). This \( h \) is called the composition of \( f \) with \( g \).
@@ -1568,7 +1604,7 @@ h(x) = g(f(x))
 $$
 
 for every \( x \in X \) is called the **composition** of \( f \) with \( g \). It is denoted by \( g \circ f \) (Read this as \( f \) composite with \( g \)). (See Figures 1.38 and 1.39.)
-
+![](fig_1.39.png)
 **Figure 1.39**
 
 We can note that the range of \( f \) need not be \( Y \). If \( f : X \to Y_1 \), \( g : Y_2 \to Z \) and \( Y_1 \subseteq Y_2 \), then also we can define \( g \circ f \); we can take \( Y_2 \) as the co-domain of \( f \) and use the same definition. So we can define \( g \circ f \) if and only if the range of \( f \) is contained in the domain of \( g \).
@@ -1649,6 +1685,7 @@ If \( f(x) = x + 5 \) and \( g(x) = x^2 - 3 \), find (i) \( f \circ f \) (ii) \(
 \[
 (g \circ g)(x) = g(g(x)) = g(x^2 - 3) = (x^2 - 3)^2 - 3 = x^4 - 6x^2 + 9 - 3 = x^4 - 6x^2 + 6.
 \]
+![](fig_1.40.png)
 
 ### Example 1.29
 
@@ -1722,7 +1759,7 @@ Thus \( (f \circ g)(x) = 3x \) for all \( x \).
 ### 1.6.5 Inverse of a Function
 
 Let there be a bijection \( f : X \to Y \) as given in the Figure 1.41.
-
+![](fig_1.41.png)
 **Figure 1.41**
 
 If we look this function in a mirror, we get a function from \( Y \) to \( X \). Let us call that function as \( g \). Then \( g \) is a function from \( Y \) to \( X \) defined by
@@ -1914,9 +1951,9 @@ where \( a_i \) are constants, is called a **polynomial function**. Since the ri
 Clearly a linear function is a polynomial function. The graph of this function is a straight line; a straight line is called a linear curve; so this function is called a linear function. (one may come across different definitions for linear functions in higher study of mathematics.)
 
 (iii) Let \( a \) be a non-negative constant. Consider the function \( f : \mathbb{R} \to \mathbb{R} \) defined by \( f(x) = a^x \). If \( a = 0, x \neq 0 \) then the function becomes the zero function and if \( a = 1 \), then function \( f : \mathbb{R} \to \mathbb{R} \) defined by \( f(x) = a^x \) is the constant function \( f(x) = 1 \). [See, Figures 1.42 and 1.43].
-
+![](fig_1.42.png)
 **Figure 1.42**
-
+![](fig_1.43.png)
 **Figure 1.43**
 
 When \( a > 1 \), the function \( f(x) = a^x \) is called an **exponential function**. Moreover, any function having \( x \) in the "power" is called as an exponential function.
@@ -1926,7 +1963,7 @@ When \( a > 1 \), the function \( f(x) = a^x \) is called an **exponential funct
 (iv) Let \( a > 1 \) be a constant. The function \( f : (0,\infty) \to \mathbb{R} \) defined by \( f(x) = \log_a x \) is called a **logarithmic function**. In fact, the inverse of an exponential function \( f(x) = a^x \) on a suitable domain is called a logarithmic function. [See, Figure 1.44].
 
 (v) The real valued function \( f \) defined by \( f(x) = \frac{p(x)}{q(x)} \) on a suitable domain, where \( p(x) \) and \( q(x) \) are polynomials, \( q(x) \neq 0 \), is called a **rational function**. In fact, the domain of this function is the set obtained from \( \mathbb{R} \) by removing the real numbers at which \( q(x) = 0 \).
-
+![](fig_1.44.png)
 **Figure 1.44**
 
 (vi) If \( f \) is a real valued function such that \( f(x) \neq 0 \), then the real valued function \( g \) defined by \( g(x) = \frac{1}{f(x)} \) on a suitable domain is called the **reciprocal function** of \( f \). The domain of \( g \) is the set obtained from \( \mathbb{R} \) by removing the real numbers at which \( f(x) = 0 \). For example, the largest possible domain of \( f(x) = \frac{1}{x - 1} \) is \( \mathbb{R} - \{1\} \).
@@ -1948,9 +1985,9 @@ f(-x) = f(x) \quad \text{for all } x \in \mathbb{R}.
 $$
 
 [See, Figures 1.45 and 1.46].
-
+![](fig_1.45.png)
 **Figure 1.45**
-
+![](fig_1.46.png)
 **Figure 1.46**
 
 The function defined by \( f(x) = x \), \( f(x) = 2x \) and \( f(x) = x^3 + 2x \) are some examples for odd functions. The functions defined by \( f(x) = x^2 \), \( f(x) = 3 \), \( f(x) = x^4 + x^2 \) and \( f(x) = |x| \) are some examples for even functions. Note that the function \( f(x) = x + x^2 \) is neither even nor odd.
@@ -2086,7 +2123,7 @@ In the case of reflections and translations, they produce graphs congruent to th
 ### Reflection
 
 The reflection of the graph of a function with respect to a line \( \ell \) is the graph that is symmetric to it with respect to \( \ell \). A reflection is the mirror image of the graph where line \( \ell \) is the mirror of the reflection. (See Figure 1.47.)
-
+![](fig_1.47.png)
 **Figure 1.47**
 
 Here \( f' \) is the mirror image of \( f \) with respect to \( \ell \). Every point of \( f \) has a corresponding image in \( f' \). Some useful reflections of \( y = f(x) \) are
@@ -2104,7 +2141,7 @@ Consider the functions:
 (i) \( y = x^2 \)
 
 (ii) \( y = -x^2 \)
-
+![](fig_1.48.png)
 **Figure 1.48**
 
 For the curve \( f(x) = x^2 \), \( -f(x) = -x^2 \). Hence, \( y = -x^2 \) is the reflection of \( y = x^2 \) about \( x \)-axis. (See Figure 1.48.)
@@ -2114,7 +2151,7 @@ For the curve \( f(x) = x^2 \), \( -f(x) = -x^2 \). Hence, \( y = -x^2 \) is the
 Consider the positive branches of
 
 \( y^2 = x \) and \( y^2 = -x \).
-
+![](fig_1.49.png)
 **Figure 1.49**
 
 For the curve \( f(x) = \sqrt{x} \), we have \( f(-x) = \sqrt{-x} \) and hence \( f(-x) = \sqrt{-x} \) where \( x < 0 \), is the reflection of \( f(x) = \sqrt{x} \) about \( y \)-axis. (See Figure 1.49.)
@@ -2126,7 +2163,7 @@ Consider the functions:
 (i) \( y = e^x \)
 
 (ii) \( y = \log_e x \)
-
+![](fig_1.50.png)
 **Figure 1.50**
 
 We know that, \( y = e^x \) is the inverse function of \( y = \log_e x \) and hence \( y = e^x \) is the reflection of \( y = \log_e x \) about \( y = x \). (See Figure 1.50.)
@@ -2149,7 +2186,7 @@ Consider the functions:
 (ii) \( f(x) = |x - 1| \)
 
 (iii) \( f(x) = |x + 1| \)
-
+![](fig_1.51.png)
 **Figure 1.51**
 
 \( f(x) = |x - 1| \) causes the graph of the function \( f(x) = |x| \) shifts to the right for one unit. \( f(x) = |x + 1| \) causes the graph of the function \( f(x) = |x| \) shifts to the left for one unit. (See Figure 1.51.)
@@ -2163,7 +2200,7 @@ Consider the functions:
 (ii) \( f(x) = |x| - 1 \)
 
 (iii) \( f(x) = |x| + 1 \)
-
+![](fig_1.52.png)
 **Figure 1.52**
 
 \( f(x) = |x| - 1 \) causes the graph of the function \( f(x) = |x| \) shifts to the downward for one unit. \( f(x) = |x| + 1 \) causes the graph of the function \( f(x) = |x| \) shifts to the upward for one unit. (See Figure 1.52.)
@@ -2184,7 +2221,7 @@ Consider the functions:
 (ii) \( f(x) = \frac{1}{2}x^2 \)
 
 (iii) \( f(x) = 2x^2 \)
-
+![](fig_1.53.png)
 **Figure 1.53**
 
 \( f(x) = \frac{1}{2}x^2 \) causes the graph of the function \( f(x) = x^2 \) stretches towards the \( x \)-axis since the multiplying factor is \( \frac{1}{2} \) which is less than one.
@@ -2200,7 +2237,7 @@ Consider the functions:
 (ii) \( f(x) = x^2 + 1 \)
 
 (iii) \( f(x) = (x + 1)^2 \)
-
+![](fig_1.54.png)
 **Figure 1.54**
 
 \( f(x) = x^2 + 1 \) causes the graph of the function \( f(x) = x^2 \) shifts to the upward for one unit. \( f(x) = (x + 1)^2 \) causes the graph of the function \( f(x) = x^2 \) shifts to the left for one unit. (See Figure 1.54.)
@@ -2208,29 +2245,29 @@ Consider the functions:
 ### Illustration 1.12
 
 Compare and contrast the graphs \( y = x^2 - 1 \), \( y = 4(x^2 - 1) \) and \( y = (4x)^2 - 1 \).
-
+![](fig_1.55.png)
 **Figure 1.55**
-
+![](fig_1.56.png)
 **Figure 1.56**
-
+![](fig_1.57.png)
 **Figure 1.57**
 
 The graphs Figures 1.55 and 1.56 look identical until we compare the scales on the \( y \)-axis. The scale in Figure 1.56 is four times as large, reflecting the multiplication of the original function by 4 (Figure 1.55). The effect looks different when the functions are plotted on the same scale as in Figure 1.57.
 
 The graph of \( y = (4x)^2 - 1 \) is shown in Figure 1.58. Can you spot the difference between Figure 1.55 and Figure 1.58? In this case, \( x \)-scale has now changed, by the same factor of 4 as in the function (Figure 1.58). To see this, note that substituting \( x = \frac{1}{4} \) into \( (4x)^2 - 1 \) produces \( 1^2 - 1 \), exactly the same as substituting \( x = 1 \) into the original function (Figure 1.55). When plotted on the same set of axes (as in Figure 1.59) the parabola \( y = (4x)^2 - 1 \) looks thinner. Here, the \( x \)-intercepts are different, but \( y \)-intercepts are the same.
-
+![](fig_1.58.png)
 **Figure 1.58**
-
+![](fig_1.59.png)
 **Figure 1.59**
 
 ### Illustration 1.13
 
 By using the same concept applied in Illustration 1.12, graphs of \( y = \sin x \) and \( y = \sin 2x \), and also their combined graphs are given Figures 1.60, 1.61 and 1.62. The minimum and maximum values of \( \sin x \) and \( \sin 2x \) are the same. But they have different \( x \)-intercepts. The \( x \)-intercepts for \( y = \sin x \) are \( \pm n\pi \) and for \( y = \sin 2x \) are \( \pm \frac{1}{2}n\pi \), \( n \in \mathbb{Z} \).
-
+![](fig_1.60.png)
 **Figure 1.60**
-
+![](fig_1.61.png)
 **Figure 1.61**
-
+![](fig_1.62.png)
 **Figure 1.62**
 
 In the beginning of the section we talked about drawing the graph of \( y = 2\sin(x - 1) + 3 \). Now we are well equipped to draw the curve and even we can draw more complicated curve.
@@ -2242,13 +2279,13 @@ Let us now draw the graph of \( y = 2\sin(x - 1) + 3 \).
 It is clear that the curve can be obtained from that of \( y = \sin x \) using translation and dilation.
 
 So first we draw \( y = \sin x \). From that it is easy to draw the curve \( y = \sin(x - 1) \); then draw \( y = 2\sin(x - 1) \) and finally \( y = 2\sin(x - 1) + 3 \). (See Figures 1.63 to 1.66.)
-
+![](fig_1.63.png)
 **Figure 1.63**
-
+![](fig_1.64.png)
 **Figure 1.64**
-
+![](fig_1.65.png)
 **Figure 1.65**
-
+![](fig_1.66.png)
 **Figure 1.66**
 
 ## Exercise 1.4
@@ -2264,7 +2301,7 @@ So first we draw \( y = \sin x \). From that it is easy to draw the curve \( y =
    (iv) \( y = (x + 1)^3 \)
 
    with the same scale.
-
+![](fig_1.67.png)
 **Figure 1.67**
 
 2. For the curve \( y = x^{\frac{1}{3}} \) given in Figure 1.68, draw
@@ -2276,7 +2313,7 @@ So first we draw \( y = \sin x \). From that it is easy to draw the curve \( y =
    (iii) \( y = x^{\frac{1}{3}} - 1 \)
 
    (iv) \( y = (x + 1)^{\frac{1}{3}} \)
-
+![](fig_1.68.png)
 **Figure 1.68**
 
 3. Graph the functions \( f(x) = x^3 \) and \( g(x) = \sqrt[3]{x} \) on the same coordinate plane. Find \( f \circ g \) and graph it on the plane as well. Explain your results.
@@ -2328,7 +2365,7 @@ So first we draw \( y = \sin x \). From that it is easy to draw the curve \( y =
    (iv) can you make the data as a one-to-one function? If not, why?
 
 2. Identify the curves in Figure 1.69 and the corresponding equations for the base curve \( y = x^2 \) (graph with dotted line) by seeing the scale.
-
+![](fig_1.69.png)
 **Figure 1.69**
 
 ## Multiple Choice Questions
