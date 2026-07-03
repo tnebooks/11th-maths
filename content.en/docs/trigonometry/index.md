@@ -1,6 +1,7 @@
 ---
 title: 'trigonometry'
 weight: 3
+summary: "This chapter introduces the fundamental concepts of trigonometry, including the measurement of angles in degrees and radians, and the definitions of trigonometric ratios such as sine, cosine, and tangent in the context of right-angled triangles and the unit circle. It covers essential identities like Pythagorean identities, sum and difference formulas, multiple and sub-multiple angle formulas, and transformations of sums into products and vice versa. The chapter also discusses the signs of trigonometric functions in different quadrants, general solutions of trigonometric equations, and applications of trigonometry in solving real-world problems involving heights and distances."
 ---
 
 # Chapter 3: Trigonometry

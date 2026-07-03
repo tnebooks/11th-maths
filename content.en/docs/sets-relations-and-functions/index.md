@@ -1,6 +1,7 @@
 ---
 title: 'sets relations and functions'
 weight: 1
+summary: "This chapter introduces the fundamental concepts of sets, relations, and functions, which form the building blocks of modern mathematics and are essential for understanding higher-level topics. It covers different types of sets, operations on sets such as union, intersection, and complement, along with Venn diagrams and the laws of set algebra. The chapter also discusses various types of relations and functions, including domain, codomain, range, and different classifications like one-to-one, onto, and inverse functions, providing a strong foundation for mathematical reasoning."
 ---
 
 # Sets, Relations and Functions

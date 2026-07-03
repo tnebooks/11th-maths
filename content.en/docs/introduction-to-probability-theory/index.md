@@ -1,6 +1,7 @@
 ---
 title: 'introduction to probability theory'
 weight: 12
+summary: "This chapter introduces the fundamental concepts of probability, which measures the likelihood of occurrence of events in random experiments, and covers basic terminology such as trial, outcome, sample space, and event. It discusses classical, empirical, and axiomatic approaches to probability, along with important rules such as the addition theorem for mutually exclusive and non-mutually exclusive events, and the multiplication theorem for independent and dependent events. The chapter also covers conditional probability, Bayes' theorem, and provides a foundation for understanding random variables and probability distributions, which are essential for statistical analysis and decision-making."
 ---
 
 # Chapter 12: Introduction to Probability Theory

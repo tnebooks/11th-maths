@@ -1,6 +1,7 @@
 ---
 title: 'differential calculus differentiability and methods of differentiation'
 weight: 10
+summary: "This chapter extends the concepts of limits and continuity to differentiability, defining the derivative as the instantaneous rate of change of a function and the slope of the tangent line at a given point, along with the conditions for a function to be differentiable. It covers various methods of differentiation including the product rule, quotient rule, chain rule, and differentiation of implicit functions, parametric functions, and logarithmic functions. The chapter also discusses higher-order derivatives, derivatives of inverse trigonometric functions, and applications such as finding tangents, normals, and rates of change in real-world problems."
 ---
 
 # Differentiability and Methods of Differentiation
