@@ -1,6 +1,7 @@
 ---
 title: 'differential calculus limits and continuity'
 weight: 9
+summary: "This chapter introduces the fundamental concepts of limits and continuity, which form the backbone of differential calculus and are essential for understanding the behavior of functions as they approach specific points or infinity. It covers the definition of limits, methods of evaluating limits including direct substitution, factorization, rationalization, and standard limit formulas, along with the concept of left-hand and right-hand limits. The chapter also discusses continuity of functions at a point and over an interval, types of discontinuities, and the intermediate value theorem, providing a rigorous foundation for derivatives and advanced calculus."
 ---
 
 # Chapter 9: Limits and Continuity

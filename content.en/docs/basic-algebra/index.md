@@ -1,6 +1,7 @@
 ---
 title: 'basic algebra'
 weight: 2
+summary: "This chapter covers the fundamental concepts of algebra, including operations on polynomials, factorization, and the solution of linear and quadratic equations using various methods such as factorization, completing the square, and the quadratic formula. It also discusses the concept of logarithms, their properties, and the laws of exponents, along with the binomial theorem for positive integral indices and its applications. The chapter provides essential algebraic tools that are widely used across all branches of mathematics and its applications."
 ---
 
 

@@ -1,6 +1,7 @@
 ---
 title: 'matrices and determinants'
 weight: 7
+summary: "This chapter introduces matrices as rectangular arrays of numbers and determinants as scalar values associated with square matrices, providing powerful mathematical tools for solving systems of linear equations and representing linear transformations. It covers various types of matrices, operations such as addition, subtraction, multiplication, and transpose, along with properties of determinants including evaluation using cofactor expansion and row/column operations. The chapter also discusses the inverse of a matrix, the adjoint method, Cramer's rule for solving linear systems, and the consistency and inconsistency of equations, which have extensive applications in physics, engineering, and computer science."
 ---
 
 # Chapter 7: Matrices and Determinants

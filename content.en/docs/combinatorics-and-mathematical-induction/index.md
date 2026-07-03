@@ -1,6 +1,7 @@
 ---
 title: 'combinatorics and mathematical induction'
 weight: 4
+summary: "This chapter introduces the principles of counting, including the fundamental theorem of counting, permutations, and combinations, which are used to determine the number of ways events can occur without listing all possibilities. It covers factorial notation, the formulas for permutations and combinations, and their applications in solving practical problems involving arrangements and selections. The chapter also discusses the principle of mathematical induction as a powerful method for proving mathematical statements, particularly those involving natural numbers, along with its steps and applications in various algebraic identities and inequalities."
 ---
 
 # Combinatorics and Mathematical Induction
